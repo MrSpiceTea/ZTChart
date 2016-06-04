@@ -13,6 +13,8 @@
 		3536D6D41D02C741001E2F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3536D6D21D02C741001E2F6C /* Main.storyboard */; };
 		3536D6D61D02C741001E2F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3536D6D51D02C741001E2F6C /* Assets.xcassets */; };
 		3536D6D91D02C741001E2F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3536D6D71D02C741001E2F6C /* LaunchScreen.storyboard */; };
+		3536D6E31D02C9F4001E2F6C /* ZTChartBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3536D6E21D02C9F4001E2F6C /* ZTChartBaseView.m */; };
+		3536D6E61D02CA15001E2F6C /* ZTChartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3536D6E51D02CA15001E2F6C /* ZTChartLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3536D6D51D02C741001E2F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3536D6D81D02C741001E2F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3536D6DA1D02C741001E2F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3536D6E11D02C9F4001E2F6C /* ZTChartBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTChartBaseView.h; sourceTree = "<group>"; };
+		3536D6E21D02C9F4001E2F6C /* ZTChartBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTChartBaseView.m; sourceTree = "<group>"; };
+		3536D6E41D02CA15001E2F6C /* ZTChartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTChartLineView.h; sourceTree = "<group>"; };
+		3536D6E51D02CA15001E2F6C /* ZTChartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTChartLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		3536D6C81D02C741001E2F6C /* ZTChart */ = {
 			isa = PBXGroup;
 			children = (
+				3536D6E01D02C964001E2F6C /* ZTChart */,
 				3536D6CC1D02C741001E2F6C /* AppDelegate.h */,
 				3536D6CD1D02C741001E2F6C /* AppDelegate.m */,
 				3536D6CF1D02C741001E2F6C /* ViewController.h */,
@@ -77,6 +84,17 @@
 				3536D6CA1D02C741001E2F6C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3536D6E01D02C964001E2F6C /* ZTChart */ = {
+			isa = PBXGroup;
+			children = (
+				3536D6E11D02C9F4001E2F6C /* ZTChartBaseView.h */,
+				3536D6E21D02C9F4001E2F6C /* ZTChartBaseView.m */,
+				3536D6E41D02CA15001E2F6C /* ZTChartLineView.h */,
+				3536D6E51D02CA15001E2F6C /* ZTChartLineView.m */,
+			);
+			path = ZTChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +170,8 @@
 			files = (
 				3536D6D11D02C741001E2F6C /* ViewController.m in Sources */,
 				3536D6CE1D02C741001E2F6C /* AppDelegate.m in Sources */,
+				3536D6E31D02C9F4001E2F6C /* ZTChartBaseView.m in Sources */,
+				3536D6E61D02CA15001E2F6C /* ZTChartLineView.m in Sources */,
 				3536D6CB1D02C741001E2F6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

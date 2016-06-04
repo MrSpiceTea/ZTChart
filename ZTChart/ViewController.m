@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZTChartLineView.h"
 
 @interface ViewController ()
 
