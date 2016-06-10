@@ -17,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.grec
+    ZTChartLineView *ztlineView = [[ZTChartLineView alloc]initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 200)];
+    ztlineView.backgroundColor = [UIColor brownColor];
+    [self.view addSubview:ztlineView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -10,4 +10,6 @@
 #import "ZTChartBaseView.h"
 @interface ZTChartLineView :ZTChartBaseView
 
+@property (nonatomic,strong) NSMutableArray *points;
+@property (nonatomic,assign) BOOL isCoord;
 @end
